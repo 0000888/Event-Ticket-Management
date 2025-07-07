@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Re-add the background image */
+    background-image: url('https://img.freepik.com/free-vector/gradient-purple-color-background-modern-wave-abstract-designs_343694-2361.jpg?t=st=1739729176~exp=1739732776~hmac=e8f8ac89a31804bc16cf1865c14036a978f4bcca1f31f03d0ba5d7aae78fe2c8&w=1380');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Signup Container */
+.signup-container {
+    color : white;
+    max-width: 450px;
+    width: 100%;
+    padding: 2rem;
+    background: #49056a;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.signup-heading {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.signup-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.signup-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.signup-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.signup-btn {
+    padding: 0.75rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.signup-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.signup-link {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.signup-link button {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.signup-link button:hover {
+    color: #0056b3;
+}
+
+/* Google Sign-In Button */
+.google-signin-btn {
+    padding: 0.75rem;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 100%;
+}
+
+.google-signin-btn:hover {
+    background-color: #357ae8;
+    transform: translateY(-2px);
+}

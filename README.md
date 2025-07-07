@@ -1,1 +1,2 @@
-# Event-Ticket-Management-
+# event-app
+ 
